@@ -764,8 +764,8 @@ function file_video(path) {
       href: `intent:${url}#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end`,
     },
     {
-      text: 'nPlayer',
-      href: `nplayer-${url}`,
+      text: 'AdmPro',
+      href: `intent:${url}#Intent;package=com.dv.adm;S.title=${path};end`,
     },
     {
       text: 'VLC',
